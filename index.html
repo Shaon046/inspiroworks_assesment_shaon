@@ -1,231 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaon-Assessment</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-
-    <!-- page-1 -->
-    <div class="one">
-
-        <nav class="nav" style="background-color: var(--primary-green); display: flex; flex-direction: column; color: white;">
-
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shaon-Assessment</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet">
+   </head>
+   <body  style="max-width: 1400px; margin: auto;">
+      <!-- page-1 -->
+      <div class="one">
+         <nav class="nav"
+            style="background-color: var(--primary-green); display: flex; flex-direction: column; color: white;">
             <!-- top section -->
-            <div style="height: 100px; display: flex; justify-content: space-between; align-items: center; padding: 0 80px;">
-                <div style="cursor: pointer;"><span> logo </span> <span> DENSO</span></div>
-                <div style="cursor: pointer;"><span> logo </span> <span>CALL US:+91 9366311783</span></div>
-                <div style="cursor: pointer;"><span> logo </span> <span> bshaon19@gmail.com</span></div>
-                <div style="display: flex; cursor: pointer;">
-                    <input type="text" placeholder="Search">
-                    <button>Icon</button>
-                </div>
+            <div
+               style="height: 100px; display: flex; justify-content: space-between; align-items: center; padding: 0 80px;">
+               <!-- Brand Logo -->
+               <div style="cursor: pointer; display: flex; align-items: center;">
+                  <img src="./assets/icons/airplane.png" alt="Logo" style="height: 35px;"> <span
+                     style=" font-size: x-large; padding-left: 10px;font-weight: 800;"> DENSO</span>
+               </div>
+               <!-- call us -->
+               <div style="cursor: pointer; display: flex; align-items: center;">
+                  <img src="./assets/icons/telephone-symbol-button.png" alt="phone" style="height: 20px;  "> <span
+                     style="padding-left: 10px;">CALL US:+91 9366311783</span>
+               </div>
+               <!-- Email  -->
+               <div style="cursor: pointer; display: flex; align-items: center;">
+                  <img src="./assets/icons/email.png" alt="phone" style="height: 20px;  "> <span
+                     style="padding-left: 10px;">Bshaon19@gmail.com</span>
+               </div>
+               <div style="display: flex; cursor: pointer; overflow: hidden;">
+                  <input type="text" placeholder="Search" style="padding: 8px 5px;">
+                  <button
+                     style=" display:flex; justify-content: center; align-items: center; border: white; padding: 5px 8px;background: white;">
+                  <img src="./assets/icons/search.png " alt="srch" style="height: 15px;">
+                  </button>
+               </div>
             </div>
-
             <!-- bottom section -->
             <div style="background-color: var(--primary-blue); padding: 0 80px;">
-                <ul style="height: 50px; display: flex; justify-content: space-between; align-items: center; list-style: none;">
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>TRANSPORT</li>
-                    <li>NEWS</li>
-                    <li>CLIENTS</li>
-                    <li>LOGIN</li>
-                    <li>REGISTER</li>
-                </ul>
+               <ul
+                  style="height: 50px; display: flex; justify-content: space-between; align-items: center; list-style: none;">
+                  <li>HOME</li>
+                  <li>ABOUT</li>
+                  <li>TRANSPORT</li>
+                  <li>NEWS</li>
+                  <li>CLIENTS</li>
+                  <li>LOGIN</li>
+                  <li>REGISTER</li>
+               </ul>
             </div>
-
-        </nav>
-
-        <!-- Home Section -->
-        <section class="home" style="display: flex; height: 100vh;">
-
+         </nav>
+         <!-- Home Section -->
+         <section class="home" style="display: flex; min-height: 100vh;">
             <!-- left -->
-            <div class="left-div" style="height: 100%; width: 50%; color: white; display: flex; justify-content: center; align-items: end; flex-direction: column;">
-                <div style="width: 455px;">
-                    <p style="font-size: 38px; font-weight: 700; border-left: 8px var(--primary-green) solid; padding-left: 8px;">AUTOS & <br> TRANSPORTATION</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, numquam tempora. Quod dolorum temporibus dolore est, modi persppore nemo. Tempore, blanditiis.</p>
-                    <div>
-                        <button style="background-color: var(--primary-green); padding: 8px 12px; border: none; color: white;">CONTACT US</button>
-                    </div>
-                </div>
+            <div class="left-div"
+               style="height: 100%; width: 50%; color: white; display: flex; justify-content: center; align-items: end; flex-direction: column;">
+               <div style="width: 455px;">
+                  <p
+                     style="font-size: 38px; font-weight: 700; border-left: 8px var(--primary-green) solid; padding-left: 8px;">
+                     AUTOS & <br> TRANSPORTATION
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, numquam tempora. Quod dolorum
+                     temporibus dolore est, modi persppore nemo. Tempore, blanditiis.
+                  </p>
+                  <div>
+                     <button
+                        style="background-color: var(--primary-green); padding: 8px 12px; border: none; color: white;">CONTACT
+                     US</button>
+                  </div>
+               </div>
             </div>
-
             <!-- right -->
             <div style="height: 100%; width: 50%; display: flex; align-items: center; color: white;">
-                <div style="min-width: 455px; background: var(--primary-green); padding: 10px 60px;">
-                    <p>Professional Services</p>
-                    <p style="font-size: 30px; width: fit-content;">Get your transport quote</p>
-                    <form class="get-quote">
-                        <div style="display: flex; flex-direction: column;">
-                            <input type="text" placeholder="Location" style="margin-top: 10px;">
-                            <input type="text" placeholder="To destination">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Contact Number">
-                            <div style="margin-bottom: 15px;">
-                                <input type="submit" value="GET NOW QUOTE" style="padding: 5px 8px; background: var(--primary-blue); color: white; border: none;">
-                            </div>
+               <div style="min-width: 455px; background: var(--primary-green); padding: 10px 60px;">
+                  <p>Professional Services</p>
+                  <p style="font-size: 30px; width: fit-content;">Get your transport quote</p>
+                  <form class="get-quote">
+                     <div style="display: flex; flex-direction: column;">
+                        <input type="text" placeholder="Location" style="margin-top: 10px;">
+                        <input type="text" placeholder="To destination">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Contact Number">
+                        <div style="margin-bottom: 15px;">
+                           <input type="submit" value="GET NOW QUOTE"
+                              style="padding: 5px 8px; background: var(--primary-blue); color: white; border: none;">
                         </div>
-                    </form>
-                </div>
+                     </div>
+                  </form>
+               </div>
             </div>
-
-        </section>
-
-    </div>
-
-    <!-- page-2 -->
-
-    <section class="two" style="min-height: 100vh; background: white; text-align: center; padding: 100px 0;">
-        <div style="width: 80%; display: flex; flex-direction: column; align-items: center; margin: auto;">
+         </section>
+      </div>
+      <!-- page-2 -->
+      <section class="two" style="min-height: 100vh; background: white; text-align: center; padding: 100px 0;">
+         <div style="width: 80%; display: flex; flex-direction: column; align-items: center; margin: auto;">
             <!-- part 1 -->
             <div style="font-size: 34px; font-weight: 500; line-height: 1; margin-bottom: 45px;">
-                <p style="display: inline; margin-bottom: 35px;">WELCOME TO
-                    <div style="display: inline-flex; flex-direction: column; align-items: center;"> DENSO
-                        <div style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;"></div>
-                    </div> TRANSPORT</p>
+               <div style="display: inline; margin-bottom: 35px;">
+                  WELCOME TO
+                  <div style="display: inline-flex; flex-direction: column; align-items: center;">
+                     DENSO
+                     <div
+                        style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;">
+                     </div>
+                  </div>
+                  TRANSPORT
+               </div>
             </div>
-            <p style="margin-bottom: 80px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, neque fugiat. Praesentium, ratione corrupti. Quod et aspernatur deleniti quaerat reprehenderit, qui magnam totam, repudiandae quia aliquid laboriosam, dignissimos assumenda incidunt eum voluptatibus aperiam. Rem, adipisci? Sed, qui minima? Nisi illum autem ep.</p>
-
+            <p style="margin-bottom: 80px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, neque fugiat.
+               Praesentium, ratione corrupti. Quod et aspernatur deleniti quaerat reprehenderit, qui magnam totam,
+               repudiandae quia aliquid laboriosam, dignissimos assumenda incidunt eum voluptatibus aperiam. Rem, adipisci?
+               Sed, qui minima? Nisi illum autem ep.
+            </p>
             <!-- part 2 -->
             <div>
-                <div style="display: inline-flex; flex-direction: column; align-items: center; font-size: 34px; font-weight: 500; line-height: 1; margin-bottom: 35px;"> SERVICES
-                    <div style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;"></div>
-                </div>
-                <p style="margin-bottom: 80px;">Lorem ipsum dolor sit amet consectetur adipisici sit amet consectetur</p>
+               <div
+                  style="display: inline-flex; flex-direction: column; align-items: center; font-size: 34px; font-weight: 500; line-height: 1; margin-bottom: 35px;">
+                  SERVICES
+                  <div
+                     style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;">
+                  </div>
+               </div>
+               <p style="margin-bottom: 80px;">Lorem ipsum dolor sit amet consectetur adipisici sit amet consectetur</p>
             </div>
-
             <!-- part 3 -->
             <div style="display: flex;">
-
-                <!-- CIRCLE-1 -->
-                <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
-                    <div style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green); margin-bottom: 20px;"></div>
-                    <p style="font-weight: 500; font-size: small;">FLY ANYWHERE</p>
-                </div>
-
-                <!-- CIRCLE-2 -->
-                <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
-                    <div style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green); margin-bottom: 20px;"></div>
-                    <p style="font-weight: 500; font-size: small;">CARGO SERVICE</p>
-                </div>
-
-                <!-- CIRCLE-3 -->
-                <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
-                    <div style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green); margin-bottom: 20px;"></div>
-                    <p style="font-weight: 500; font-size: small;">COURIER SERVICE</p>
-                </div>
-
-                <!-- CIRCLE-4 -->
-                <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
-                    <div style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green); margin-bottom: 20px;"></div>
-                    <p style="font-weight: 500; font-size: small;">BOX STORAGE</p>
-                </div>
-
-                <!-- CIRCLE-5 -->
-                <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
-                    <div style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green); margin-bottom: 20px;"></div>
-                    <p style="font-weight: 500; font-size: small;">100% SAFE</p>
-                </div>
-
+               <!-- CIRCLE-1 -->
+               <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+                  <div
+                     style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green-gradient); margin-bottom: 20px; display: flex;justify-content: center;align-items: center;">
+                     <img src="./assets/icons/airplane.png" alt="plane" height="50">
+                  </div>
+                  <p style="font-weight: 500; font-size: small;">FLY ANYWHERE</p>
+               </div>
+               <!-- CIRCLE-2 -->
+               <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+                  <div
+                     style="height: 160px; width: 160px; border-radius: 100%;background: var(--primary-green-gradient); margin-bottom: 20px; display: flex;justify-content: center;align-items: center;">
+                     <img src="./assets/icons/ship.png" alt="plane" height="50">
+                  </div>
+                  <p style="font-weight: 500; font-size: small;"> CARGO SERVICE</p>
+               </div>
+               <!-- CIRCLE-3 -->
+               <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+                  <div
+                     style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green-gradient); margin-bottom: 20px; display: flex;justify-content: center;align-items: center;">
+                     <img src="./assets/icons/fast-delivery.png" alt="plane" height="50">
+                  </div>
+                  <p style="font-weight: 500; font-size: small;"> COURIER SERVICE</p>
+               </div>
+               <!-- CIRCLE-4 -->
+               <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+                  <div
+                     style="height: 160px; width: 160px; border-radius: 100%;background: var(--primary-green-gradient); margin-bottom: 20px; display: flex;justify-content: center;align-items: center;">
+                     <img src="./assets/icons/box.png" alt="plane" height="50">
+                  </div>
+                  <p style="font-weight: 500; font-size: small;">BOX STORAGE</p>
+               </div>
+               <!-- CIRCLE-5 -->
+               <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+                  <div
+                     style="height: 160px; width: 160px; border-radius: 100%; background: var(--primary-green-gradient); margin-bottom: 20px; display: flex;justify-content: center;align-items: center;">
+                     <img src="./assets/icons/shield.png" alt="plane" height="50">
+                  </div>
+                  <p style="font-weight: 500; font-size: small;">BOX STORAGE</p>
+               </div>
             </div>
-
-            <button style="margin-top: 50px; padding: 10px 35px; background: var(--primary-blue); color: white; border: none;"> <p style="font-size: smaller;">READ MORE</p></button>
-        </div>
-    </section>
-
-    <!-- page-3 -->
-    <section>
-        <!-- part-1 -->
-        <div style="display: flex; height: max-content;">
+            <!-- button -->
+            <button
+               style="margin-top: 50px; padding: 10px 35px; background: var(--primary-blue); color: white; border: none; font-size: smaller;">
+            READ MORE
+            </button>
+         </div>
+      </section>
+      <!-- page-3 -->
+      <section>
+         <!-- part-1 -->
+         <div style="display: flex; height: max-content;">
             <!-- left -->
-            <div style="width: 50%; background: #f7f6f6; display: flex; flex-direction: column; align-items: end; padding: 40px;">
-                <div style="width: 500px;">
-                    <div style="font-size: 34px; font-weight: 500; line-height: 1; margin-bottom: 35px;">
-                        <div style="display: inline-flex; flex-direction: column;"><span>ABOUT</span> <div style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;"></div> </div>
-                        <span>TRANSPORT</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laumos hic.psum dolor sit amet consectetur adipisicing elit. Laumos psum dolor sit amet consectetur adipisicing elit. Laumos</p>
-                    <div>
-                        <button style="margin-top: 30px; padding: 10px 35px; background: var(--primary-blue); color: white; border: none;"> <p style="font-size: smaller;">READ MORE</p></button>
-                    </div>
-                </div>
+            <div
+               style="width: 50%; background: #f7f6f6; display: flex; flex-direction: column; align-items: end; padding: 40px;">
+               <div style="width: 500px;">
+                  <div style="font-size: 34px; font-weight: 500; line-height: 1; margin-bottom: 35px;">
+                     <div style="display: inline-flex; flex-direction: column;">
+                        <span>ABOUT</span>
+                        <div
+                           style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;">
+                        </div>
+                     </div>
+                     <span>TRANSPORT</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laumos hic.psum dolor sit amet consectetur
+                     adipisicing elit. Laumos psum dolor sit amet consectetur adipisicing elit. Laumos
+                  </p>
+                  <div>
+                     <button
+                        style="margin-top: 30px; padding: 10px 35px; background: var(--primary-blue); color: white; border: none;font-size: smaller">
+                     READ MORE
+                     </button>
+                  </div>
+               </div>
             </div>
             <!-- right -->
-            <div style="width: 50%; background: url(./assets/flight-1.jpeg); background-repeat: no-repeat; background-size: 100% 100%;"></div>
-        </div>
-
-        <!-- part -3 -->
-        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div
+               style="width: 50%; background: url(./assets/flight-1.jpeg); background-repeat: no-repeat; background-size: 100% 100%;">
+            </div>
+         </div>
+         <!-- part -3 -->
+         <div style="display: flex; flex-direction: column; align-items: center;">
             <div>
-                <div style="font-size: 34px; font-weight: 500; line-height: 1; margin: 60px 0;">
-                    <span>LATEST</span>
-                    <div style="display: inline-flex; flex-direction: column; align-items: center;"> <span>NEWS AND</span> <div style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;"></div> </div>
-                    <span>EVENTS</span>
-                </div>
+               <div style="font-size: 34px; font-weight: 500; line-height: 1; margin: 60px 0;">
+                  <span>LATEST</span>
+                  <div style="display: inline-flex; flex-direction: column; align-items: center;">
+                     <span>NEWS AND</span>
+                     <div
+                        style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;">
+                     </div>
+                  </div>
+                  <span>EVENTS</span>
+               </div>
             </div>
             <!-- GRID -->
             <div style="display: grid; grid-template-columns: repeat(3, 0fr); justify-content: center; gap: 10px;">
-
-                <!-- item-1 -->
-                <div style="height: 420px; width: 330px; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-                    <div style="height: 50%; background-image: url(./assets/flight-2.jpg); background-repeat: no-repeat; background-size: 100% 100%;"></div>
-                    <div style="height: 50%; text-align: center; padding: 30px 10px;">
-                        <p style="font-weight: 700; font-size: medium;">LIBERATION OF AIR CARGO INDUSTRY</p>
-                        <p style="font-size: small; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque deleniti veniam inventore quilestiae in quaerat enim, temporibus, ipsa laborum delectus tenetur, animi nisi molestias inventore?</p>
-                    </div>
-                </div>
-
-                <!-- item-2 -->
-                <div style="height: 420px; width: 330px; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-                    <div style="height: 50%; background-image: url(./assets/flight-3.jpg); background-repeat: no-repeat; background-size: 100% 100%;"></div>
-                    <div style="height: 50%; padding: 30px 10px; text-align: center;">
-                        <p style="font-weight: 700; font-size: medium;">NEW TRACK ARRIVING</p>
-                        <p style="font-size: small; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque deleniti veniam inventore quis dignissimos odio. Natus molestiae in quaerat e</p>
-                    </div>
-                </div>
-
-                <!-- item-3 -->
-                <div style="height: 420px; width: 330px; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-                    <div style="height: 50%; background-image: url(./assets/car.jpg); background-repeat: no-repeat; background-size: 100% 100%;"></div>
-                    <div style="height: 50%; padding: 30px 10px; text-align: center;">
-                        <p style="font-weight: 700; font-size: medium;">NEW WAREHOUSE NOW OPERATIONAL</p>
-                        <p style="font-size: small; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque deleniti veniam inventore quis dignissimos odio. Natus molestiae in quaerat enim,</p>
-                    </div>
-                </div>
-
+               <!-- item-1 -->
+               <div
+                  style="height: 420px; width: 330px; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); position: relative;">
+                  <div
+                     style="height: 50%; background-image: url(./assets/flight-2.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+                  </div>
+                  <div style="height: 50%; text-align: center; padding: 30px 10px;">
+                     <p style="font-weight: 700; font-size: medium;">LIBERATION OF AIR CARGO INDUSTRY</p>
+                     <p style="font-size: small; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Laborum doloremque deleniti veniam inventore quilestiae in quaerat enim, temporibus, ipsa
+                        laborum delectus tenetur, animi nisi molestias inventore?
+                     </p>
+                  </div>
+                  <div
+                     style="height: 65px; width: 65px; border-radius: 100%;  background: rgb(38, 229, 124); position: absolute;
+                     right: 50%; top:50%; transform: translate(50%,-50%); text-align: center; display:flex;justify-content:  center;align-items: center;flex-direction: column; ">
+                     <div>01</div>
+                     <div>sep</div>
+                  </div>
+               </div>
+               <!-- item-2 -->
+               <div
+                  style="height: 420px; width: 330px; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); position: relative;">
+                  <div
+                     style="height: 50%; background-image: url(./assets/flight-3.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+                  </div>
+                  <div style="height: 50%; padding: 30px 10px; text-align: center;">
+                     <p style="font-weight: 700; font-size: medium;">NEW TRACK ARRIVING</p>
+                     <p style="font-size: small; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Laborum doloremque deleniti veniam inventore quis dignissimos odio. Natus molestiae in
+                        quaerat e
+                     </p>
+                  </div>
+                  <div
+                     style="height: 65px; width: 65px; border-radius: 100%;  background: rgb(38, 229, 124); position: absolute;
+                     right: 50%; top:50%; transform: translate(50%,-50%); text-align: center; display:flex;justify-content:  center;align-items: center;flex-direction: column; ">
+                     <div>01</div>
+                     <div>sep</div>
+                  </div>
+               </div>
+               <!-- item-3 -->
+               <div
+                  style="height: 420px; width: 330px; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);position: relative;">
+                  <div
+                     style="height: 50%; background-image: url(./assets/car.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+                  </div>
+                  <div style="height: 50%; padding: 30px 10px; text-align: center;">
+                     <p style="font-weight: 700; font-size: medium;">NEW WAREHOUSE NOW OPERATIONAL</p>
+                     <p style="font-size: small; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Laborum doloremque deleniti veniam inventore quis dignissimos odio. Natus molestiae in
+                        quaerat enim,
+                     </p>
+                  </div>
+                  <div
+                     style="height: 65px; width: 65px; border-radius: 100%;  background: rgb(38, 229, 124); position: absolute;
+                     right: 50%; top:50%; transform: translate(50%,-50%); text-align: center; display:flex;justify-content:  center;align-items: center;flex-direction: column; ">
+                     <div>01</div>
+                     <div>sep</div>
+                  </div>
+               </div>
             </div>
             <div>
-                <button style="margin-top: 30px; padding: 10px 35px; background: var(--primary-blue); color: white; border: none;"> <p style="font-size: smaller;">READ MORE</p></button>
+               <button
+                  style="margin-top: 30px; padding: 10px 35px; background: var(--primary-blue); color: white; border: none;font-size: smaller">
+               READ MORE
+               </button>
             </div>
-        </div>
-    </section>
-
-    <!-- page-4 -->
-    <section style="margin-top: 100px;">
-        <div style="height: 80vh; background-image: url(./assets/flight-3.jpg); background-repeat: no-repeat; background-size: 100% 100%; display: flex; flex-direction: column; justify-content: center;">
-            <div style="display: flex; justify-content: center; flex-direction: column; color: white;">
-                <div style="display: inline-flex; flex-direction: column; align-items: center; font-size: 34px; font-weight: 500; line-height: 1; margin-bottom: 35px;"> Testimonial
-                    <div style="display: inline-block; height: 6px; width: 30px; background: white; border-radius: 30px;"></div> </p>
-                </div>
-                <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-                    <!-- part-1 -->
-                    <div style="height: 180px; width: 450px; background: #5f1e1e;"> </div>
-                    <!-- part-2 -->
-                    <div style="height: 180px; width: 450px; background: #ae9595;"> </div>
-                </div>
+         </div>
+      </section>
+      <!-- page-4 -->
+      <section style="margin-top: 100px; position: relative;">
+         <div
+            style="height: 80vh; background-image: url(./assets/flight-3.jpg); background-repeat: no-repeat; background-size: 100%; display: flex; flex-direction: column; ; position: relative;">
+            <!-- Green transparent overlay -->
+            <div
+               style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #4deb99cd; pointer-events: none;">
             </div>
-        </div>
-    </section>
-
-</body>
-
+            <!-- Header -->
+            <div style="display: flex; justify-content: center; flex-direction: column; color: white; position: relative;">
+               <div
+                  style="display: inline-flex; flex-direction: column; align-items: center; font-size: 34px; font-weight: 500; line-height: 1; margin: 50px 0 80px 0;">
+                  Testimonial
+                  <div style="display: inline-block; height: 6px; width: 30px; background: white; border-radius: 30px;">
+                  </div>
+               </div>
+               <!-- TESTIMONIAL -->
+               <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+                  <!-- part-1 -->
+                  <div style="height: 180px; width: 450px; background: #ffffff;  padding: 8px;">
+                     <!-- img -->
+                     <div style="display: flex; align-items: center;">
+                        <div> <img src="./assets/testimoinal.jpg" alt="Testimonial" style="height: 65px; ;"></div>
+                        <p style="font-weight: 600 ; color: var(--primary-green);margin-left: 5px; ;">Consectetur</p>
+                     </div>
+                     <!-- testimoinal text -->
+                     <p style="color: black; font-size: small;margin-top: 8px;">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Modi, officia velit eius facilis veniam voluptates quisquam, tenetur repellendus
+                        itaque nostrum, deserunt debitis saepe dicta. Culpa quibusdam praesentium excepturi adipisci alias?
+                     </p>
+                  </div>
+                  <!-- part-2 -->
+                  <div style="height: 180px; width: 450px; background: #ffffff;  padding: 8px;">
+                     <!-- img -->
+                     <div style="display: flex; align-items: center;">
+                        <div> <img src="./assets/testimoinal.jpg" alt="Testimonial" style="height: 65px; ;"></div>
+                        <p style="font-weight: 600 ; color: var(--primary-green);margin-left: 5px; ;">Consectetur</p>
+                     </div>
+                     <!-- testimoinal text -->
+                     <p style="color: black; font-size: small;margin-top: 8px;">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Modi, officia velit eius facilis veniam voluptates quisquam, tenetur repellendus
+                        itaque nostrum, deserunt debitis saepe dicta. Culpa quibusdam praesentium excepturi adipisci alias?
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- page-5 -->
+      <section style=" display: flex; flex-direction: column; align-items: center;">
+         <!-- Heading -->
+         <div style=" display:flex ; flex-direction: column; align-items: center; ">
+            <div style="font-size: 34px; font-weight: 500; line-height: 1; margin: 60px 0;">
+               <span>REQUEST</span>
+               <div style="display: inline-flex; flex-direction: column; align-items: start;">
+                  <span>A CALL</span>
+                  <div
+                     style="display: inline-block; height: 6px; width: 30px; background: var(--primary-green); border-radius: 30px;margin-left: 20px;">
+                  </div>
+               </div>
+               <span>BACK</span>
+            </div>
+            <div style="display: flex; flex-direction: column; width: 450px; margin-top: 60px; ">
+               <input type="text" placeholder="Name"
+                  style=" border: none; border-bottom: 2px solid #5f7fa6; margin-bottom: 15px; padding: 5px; ">
+               <input type="text" placeholder="Email"
+                  style=" border: none; border-bottom: 2px solid #5f7fa6; margin-bottom: 15px; padding: 5px; ">
+               <input type="text" placeholder="Phone Number"
+                  style=" border: none; border-bottom: 2px solid #5f7fa6; margin-bottom: 15px; padding: 5px; ">
+               <input type="text" placeholder="Message"
+                  style=" border: none; border-bottom: 2px solid #5f7fa6; margin-bottom: 15px; padding: 5px; margin-top: 70px;">
+            </div>
+            <div style=" display:flex ; justify-content: center;">
+               <button
+                  style="width: 160px; height: 50px ; background-color:#f97218; border: none; border-radius: 30px; color: white; margin: 100px 0; ">SEND</button>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer style="height: 550px; background-color: var(--primary-blue);">
+         <!-- top section -->
+         <ul
+            style="display: flex; list-style: none; height: 10% ; color: white; justify-content: space-evenly; align-items: center;">
+            <li>Call Now +91 9366311783</li>
+            <li>Location</li>
+            <li>bshaon19@gmail.com</li>
+         </ul>
+         <!-- middle section -->
+         <div style=" height: calc(80% );; background:var(--primary-green-gradient); display: flex;">
+            <!-- left -->
+            <div style="width: 50%; display: flex; ;  flex-direction: column; padding-left: 130px;">
+               <!-- inner div -->
+               <div>
+                  <!-- Brand Logo -->
+                  <div
+                     style="cursor: pointer; display: flex; align-items: center; color: white; margin-top: 100px; margin-bottom: 30px; ">
+                     <img src="./assets/icons/airplane.png" alt="Logo" style="height: 55px;"> <span
+                        style=" font-size:xx-large; padding-left: 10px;font-weight: 800;"> DENSO</span>
+                  </div>
+                  <!-- text -->
+                  <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, reiciendis fugit
+                     voluptates, ipsum fuga sequi est provident, doloribus non iure minima? Quod illum nemo accusamus, iste
+                     consequatur debitis quo aliquam.
+                  </p>
+               </div>
+               <!-- icons -->
+               <div style="display: flex ; margin-top: 30px;;">
+                  <!-- i-1 -->
+                  <div
+                     style="display: flex; justify-content: center;align-items: center; border-radius: 100%; padding: 10px ; width: fit-content;background:white; margin-right: 10px;">
+                     <img src="./assets/icons/lkned.png" alt="lnk" style="height: 25px;width: 25px;">
+                  </div>
+                  <!-- i-2 -->
+                  <div
+                     style="display: flex; justify-content: center;align-items: center; border-radius: 100%; padding: 10px ; width: fit-content;background:white;margin-right: 10px;">
+                     <img src="./assets/icons/twitter.png" alt="lnk" style="height: 25px;width: 25px;">
+                  </div>
+                  <!-- i-3 -->
+                  <div
+                     style="display: flex; justify-content: center;align-items: center; border-radius: 100%; padding: 10px ; width: fit-content;background:white;margin-right: 10px;">
+                     <img src="./assets/icons/lkned.png" alt="lnk" style="height: 25px;width: 25px;">
+                  </div>
+                  <!-- i-4 -->
+                  <div
+                     style="display: flex; justify-content: center;align-items: center; border-radius: 100%; padding: 10px ; width: fit-content;background:white;margin-right: 10px;">
+                     <img src="./assets/icons/twitter.png" alt="lnk" style="height: 25px;width: 25px;">
+                  </div>
+               </div>
+            </div>
+            <!-- right -->
+            <div style="width: 50%;  color: white;">
+               <!-- inner div -->
+               <div
+                  style="display: flex; width: 100%; justify-content: space-evenly; margin-top: 100px; border-left: 1px solid white;">
+                  <!-- Information -->
+                  <ul style="font-size: small; ">
+                     <h1 style=" font-size: medium;">Information</h1>
+                     <li style="padding: 5px 0; list-style: none;">Lorem dolor sit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem, ipslor.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorsum dolor sit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem isit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem, dolor.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem ipsum dolo.</li>
+                  </ul>
+                  <!-- helpful link -->
+                  <ul style="font-size: small; ">
+                     <h1 style=" font-size: medium;">Helpful links</h1>
+                     <li style="padding: 5px 0; list-style: none;">Lorem dolor sit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem, ipslor.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorsum dolor sit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem isit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem, dolor.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem ipsum dolo.</li>
+                  </ul>
+                  <!-- supported -->
+                  <ul style="font-size: small;">
+                     <h1 style=" font-size: medium;">Helpful links</h1>
+                     <li style="padding: 5px 0; list-style: none;">Lorem dolor sit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem, ipslor.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorsum dolor sit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem isit.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem, dolor.</li>
+                     <li style="padding: 5px 0; list-style: none;">Lorem ipsum dolo.</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- bottom section -->
+         <!-- top section -->
+         <div
+            style="display: flex;color: white; justify-content: space-evenly; align-items: center; list-style: none;height: 10%;">
+            <li> 2019 All Rights Reserved. Free HTML Template</li>
+         </div>
+      </footer>
+   </body>
 </html>

@@ -9,7 +9,8 @@
 }
 
 :root {
-  --primary-green: #349d67cd;
+  --primary-green: #3bd688d3;
+  --primary-green-gradient: linear-gradient(to bottom, #349d67, #44af78, #54c289, #64d59a, #74e8ac);
   --primary-blue: #222b3c;
 }
 
@@ -33,15 +34,35 @@
 input::placeholder {
   color: rgb(185, 180, 180);
 }
-
-input:focus{
+input{
     outline: none;
+    border: none;
+}
+input:focus{
+    outline: none;  border: none;
     
 }
 input:active{
-    outline: none;
+    outline: none;  border: none;
+}
+input:hover{
+    outline: none;  border: none;
 }
 
 
+textarea{
+    border: none;
+            border-bottom: 1px solid var(--primary-blue);
+            padding: 5px;
+            width: 100%; /* Ensure the textarea takes up the full width of the container */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
 
 
+textarea:focus{
+    outline: none;
+}
+
+textarea:active{
+    outline: none;
+}
